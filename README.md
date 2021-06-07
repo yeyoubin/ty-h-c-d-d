@@ -1,1 +1,3 @@
-# ty-h-c-d-d
+ThisprojectisdevelopedusingTuyaSDK,whichenablesyoutoquicklydevelop
+brandedappsconnectingandcontrollingsmartscenariosofmanydevices.
+Formoreinformation,pleasecheckTuyaDeveloperWebsite.
