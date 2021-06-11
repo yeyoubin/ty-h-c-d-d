@@ -20,8 +20,8 @@
 #define CONFIG_MODE CONFIG_MODE_SPECIAL // Anti-touch mode (special working mode)
 
 #ifndef SUPPORT_MCU_FIRM_UPDATE
-#define WIFI_UART_RECV_BUF_LMT 32 //UART data receiving buffer size, can be reduced if the MCU has insufficient RAM
-#define WIFI_DATA_PROCESS_LMT 38  //UART data processing buffer size, according to the user DP data size, must be greater than 24
+#define WIFI_UART_RECV_BUF_LMT 128 //UART data receiving buffer size, can be reduced if the MCU has insufficient RAM
+#define WIFI_DATA_PROCESS_LMT 128  //UART data processing buffer size, according to the user DP data size, must be greater than 24
 #else
 #define WIFI_UART_RECV_BUF_LMT 128 //UART data receiving buffer size, can be reduced if the MCU has insufficient RAM
 
